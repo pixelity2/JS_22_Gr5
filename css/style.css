@@ -71,8 +71,8 @@ a:hover{
 }
 button{
     background-color: aqua;
+    border: 10px solid gray;
     border-radius: 30px;
-    border: 0px;
     padding: 1rem;
     color: black;
 }
@@ -83,11 +83,11 @@ body{
     background-image: url(/img/tools.jpg);
 }
 h2{
-    color: #5cb914;
+    color: blue;
     font-size: 36px;
 }
 h3{
-    color: #5cb914;
+    color: blue;
     font-size: 28px;
 }
 #bmi-img{
@@ -96,8 +96,12 @@ h3{
     float: right;
 }
 .container{
-    background-color: rgb(157, 105, 105);
+    background-color: hotpink;
 }
 label{
     font-weight: bold;
+}
+.quote{
+    margin-left: 300px;
+    margin-right: 300px;
 }
