@@ -13,6 +13,6 @@ function calculateBMI_m(){
     else if (result > 25){
         status = "overweight";
     }
-    let newResult = Math.floor(result);
+    let newResult = result.toFixed(2);
     document.getElementById("result").innerHTML = "Your BMI is " + newResult + " which means you are " + status;
 }

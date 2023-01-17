@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    scroll-behavior: smooth;
 }
 .navigation{
     display: flex;
@@ -75,28 +76,24 @@ button{
     border-radius: 30px;
     padding: 1rem;
     color: black;
+    padding: 36px;
+    font-size: 21px;
 }
 button:hover{
     background-color: bisque;
 }
-body{
-    background-image: url(/img/tools.jpg);
-}
 h2{
-    color: blue;
+    color: black;
     font-size: 36px;
 }
 h3{
-    color: blue;
+    color: black;
     font-size: 28px;
 }
 #bmi-img{
     width: 450px;
-    margin-right: 300px;
+    margin-right: 180px;
     float: right;
-}
-.container{
-    background-color: hotpink;
 }
 label{
     font-weight: bold;
@@ -104,4 +101,20 @@ label{
 .quote{
     margin-left: 300px;
     margin-right: 300px;
+}
+.end{
+    background-color: black;
+    color: wheat;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+    font-size: 25px;
+}
+input{
+    padding: 16px;
+    font-size: 18px;
+}
+#continue{
+    scroll-behavior: smooth;
 }
