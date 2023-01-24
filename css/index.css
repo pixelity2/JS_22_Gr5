@@ -1,8 +1,8 @@
 #big-title{
-    font-size: 160px;
+    font-size: 80px;
 }
 .container{
-    background-image: url(/img/tools.jpg);
+    background-image: url(img/tools.jpg);
 }
 #big-button{
     padding: 38px 24px;
